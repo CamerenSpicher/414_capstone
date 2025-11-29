@@ -1,0 +1,32 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     vacancy_rate_rental   R-squared:                       0.210
+Model:                             OLS   Adj. R-squared:                  0.178
+Method:                  Least Squares   F-statistic:                     3.486
+Date:                 Sat, 29 Nov 2025   Prob (F-statistic):            0.00296
+Time:                         16:04:28   Log-Likelihood:                -478.47
+No. Observations:                  156   AIC:                             970.9
+Df Residuals:                      149   BIC:                             992.3
+Df Model:                            6                                         
+Covariance Type:                   HC3                                         
+=======================================================================================
+                          coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                  13.4244      4.835      2.777      0.005       3.949      22.900
+median_rent             0.0021      0.001      2.374      0.018       0.000       0.004
+renter_share           -7.7167      3.361     -2.296      0.022     -14.303      -1.130
+recent_movers_share    -3.7287      6.765     -0.551      0.582     -16.988       9.530
+overcrowded_share     -21.9602      9.995     -2.197      0.028     -41.549      -2.371
+rent_burden35_share     7.6204      3.293      2.314      0.021       1.166      14.075
+median_rooms           -1.8619      0.573     -3.249      0.001      -2.985      -0.739
+==============================================================================
+Omnibus:                       11.810   Durbin-Watson:                   2.108
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               12.426
+Skew:                           0.681   Prob(JB):                      0.00200
+Kurtosis:                       3.234   Cond. No.                     7.12e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 7.12e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
