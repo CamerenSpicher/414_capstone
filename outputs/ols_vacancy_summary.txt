@@ -4,7 +4,7 @@ Dep. Variable:     vacancy_rate_rental   R-squared:                       0.210
 Model:                             OLS   Adj. R-squared:                  0.178
 Method:                  Least Squares   F-statistic:                     3.486
 Date:                 Sat, 29 Nov 2025   Prob (F-statistic):            0.00296
-Time:                         16:04:28   Log-Likelihood:                -478.47
+Time:                         17:08:59   Log-Likelihood:                -478.47
 No. Observations:                  156   AIC:                             970.9
 Df Residuals:                      149   BIC:                             992.3
 Df Model:                            6                                         
